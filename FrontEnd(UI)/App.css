@@ -1,0 +1,101 @@
+/* General container */
+.container {
+  max-width: 650px;
+  margin: 30px auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Title */
+.title {
+  font-size: 2.3rem;
+  margin-bottom: 20px;
+  color: #222;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Card style */
+.card {
+  background: linear-gradient(145deg, #ffffff, #f8f9fa);
+  border-radius: 14px;
+  padding: 25px;
+  margin-top: 20px;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+/* Section titles */
+.section-title {
+  margin-bottom: 18px;
+  color: #ff5733;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+/* Form inputs */
+select, input {
+  width: 95%;
+  padding: 12px;
+  margin: 12px 0;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+  outline: none;
+  transition: 0.3s ease;
+}
+
+select:focus, input:focus {
+  border-color: #ff5733;
+  box-shadow: 0 0 6px rgba(255, 87, 51, 0.4);
+}
+
+/* Button */
+.btn {
+  background: linear-gradient(135deg, #ff6a00, #ee0979);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  margin-top: 12px;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background: linear-gradient(135deg, #ee0979, #ff6a00);
+  transform: scale(1.05);
+}
+
+/* Divider */
+.divider {
+  margin: 40px 0;
+  border: none;
+  border-top: 2px dashed #bbb;
+}
+
+/* Success and Info cards */
+.success {
+  border-left: 6px solid #28a745;
+  background: #e9f9ee;
+}
+
+.info {
+  border-left: 6px solid #17a2b8;
+  background: #e7f6f9;
+}
+
+/* Ticket details text */
+.success p, .info p {
+  margin: 6px 0;
+  font-size: 1rem;
+  color: #333;
+}
